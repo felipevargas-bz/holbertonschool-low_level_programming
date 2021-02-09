@@ -1,19 +1,19 @@
 /*
- * File: 1-isdigit.c
+ * File: 1-alphabet.c
  * Auth: Felipe Vargas
  */
 
 #include "holberton.h"
 
 /**
- * _isdigit - Checks for a digit (0-9).
- * Return: 1 if the number is a digit, 0 otherwise.
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
-int _isdigit(int c)
+void print_alphabet(void)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
+	char letter;
 
-	else
-		return (0);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+
+	_putchar('\n');
 }
