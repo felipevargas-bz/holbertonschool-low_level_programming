@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * print_sign - function that prints the sign of a number.
- * 
+ *
  *@n: number to check
  * Return: Always 0 (Success)
  */
@@ -18,7 +18,7 @@ int print_sign(int n)
 		return (-1);
 	}
 	else
-	
+
 		_putchar('0');
 	return (0);
 
