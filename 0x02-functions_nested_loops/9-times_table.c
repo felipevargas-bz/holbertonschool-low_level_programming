@@ -21,7 +21,11 @@ void times_table(void)
 			{
 				_putchar(' ');
 			}
-				_putchar((mult % 10) + '0');
+			_putchar((mult % 10) + '0');
+			if (cont == 9)
+			{
+				continue;
+			}
 				_putchar(',');
 				_putchar(' ');
 		}
