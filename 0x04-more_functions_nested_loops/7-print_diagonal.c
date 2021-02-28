@@ -5,22 +5,22 @@
  */
 void print_diagonal(int n)
 {
-	int i, c;
+int i, c;
 
-	for (i = 1; i <= n; i++)
-	{
-		for (c = 1; c < i; c++)
-		{
-			_putchar(' ');
-		}
-		if (n > 0)
-		{
-			_putchar(92);
-			_putchar('\n');
-		}
-	}
-	if  (n < 1)
-	{
-		_putchar('\n');
-	}
+for (i = 1; i <= n; i++)
+{
+for (c = 1; c < i; c++)
+{
+_putchar(' ');
+}
+if (n > 0)
+{
+_putchar(92);
+_putchar('\n');
+}
+}
+if  (n < 1)
+{
+_putchar('\n');
+}
 }
