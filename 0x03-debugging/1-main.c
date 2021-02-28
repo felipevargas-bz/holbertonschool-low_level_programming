@@ -6,7 +6,6 @@
 * Return: 0
 *
 *
-*
 */
 int main(void)
 {
@@ -15,7 +14,8 @@ printf("Infinite loop incoming :(\n");
 i = 0;
 /*
 * while (i < 10) el ciclo while no tiene aumento
-* y por eso causa el ciclo infinito
+* y por eso causa el ciclo infinito, se debe aumentar
+* debajo de putchar(i);
 */
 {
 putchar(i);
