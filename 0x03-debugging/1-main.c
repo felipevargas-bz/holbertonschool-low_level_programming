@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main - causes an infinite loop
-*
+* main - el bulcue infinito es causado porque
+* el ciclo while no tiene aumento
 * Return: 0
 *
 *
