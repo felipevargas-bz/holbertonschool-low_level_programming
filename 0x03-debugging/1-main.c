@@ -15,10 +15,10 @@ i = 0;
 * while (i < 10) el ciclo while no tiene aumento
 * y por eso causa el ciclo infinito, se debe aumentar
 * debajo de putchar(i);
-*/
 {
 putchar(i);
 }
+*/
 printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
