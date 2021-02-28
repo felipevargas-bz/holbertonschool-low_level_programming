@@ -20,7 +20,7 @@ int largest;
 	}
 	else if (c > a && a > b)
 	{
-		largest = b;
+		largest = c;
 	}
 return (largest);
 }
