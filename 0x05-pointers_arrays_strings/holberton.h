@@ -22,5 +22,6 @@ void positive_or_negative(int num);
 int largest_number(int a, int b, int c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
+void print_array(int *a, int n);
 
 #endif
