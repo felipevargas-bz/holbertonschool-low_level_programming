@@ -27,6 +27,6 @@ void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
-
+void *malloc_checked(unsigned int b);
 
 #endif
