@@ -16,7 +16,12 @@ void rev_string(char *s)
 
 	}
 }
-int _strlen(char *s)
+/**
+ * _strlen - returns the length of a string.
+ * @str: string in question.
+ * Return: i.
+ */
+int _strlen(char *str)
 {
 int i = 0;
 while (*s != '\0')
