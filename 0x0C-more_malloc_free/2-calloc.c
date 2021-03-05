@@ -23,7 +23,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 	f = gt;
-	for (i = 0; i <= (size * nmemb); i++)
+	for (i = 0; i < (size * nmemb); i++)
 	{
 		f[i] = '0';
 	}
