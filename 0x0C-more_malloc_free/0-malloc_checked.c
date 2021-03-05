@@ -2,12 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * 
- * 
+ * malloc_checked - llocates memory using malloc.
+ * @b: Size of memory
+ * Return: ptr.
  */
 void *malloc_checked(unsigned int b)
 {
-	int *ptr;
+	unsigned int *ptr;
 
 	ptr = malloc(b);
 	if (ptr == NULL)
