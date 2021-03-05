@@ -9,22 +9,14 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *gt;
-	char *f;
 	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
-	{
 		return (NULL);
-	}
 	gt = malloc(nmemb * size);
 	if (gt == NULL)
-	{
 		return (NULL);
-	}
-	f = gt;
 	for (i = 0; i < (size * nmemb); i++)
-	{
-		f[i] = '0';
-	}
+		gt[i] = '0';
 	return (gt);
 }
