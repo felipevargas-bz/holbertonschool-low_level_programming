@@ -17,7 +17,7 @@ int *array_range(int min, int max)
 	gt = malloc(t * (sizeof(int)));
 	if (gt == NULL)
 		return (NULL);
-	for (i = min; min <= max; i++, min++)
+	for (i = min; i <= t; i++, min++)
 	{
 		gt[i] = min;
 	}
