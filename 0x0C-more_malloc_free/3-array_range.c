@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * array_range - creates an array of integers.
+ * array_range - creates an gt of integers.
  * @min: size min.
  * @max:	size max.
  * Return: Pointer.
@@ -13,19 +13,17 @@ int *array_range(int min, int max)
 	int i, t;
 
 	if (min > max)
-	{
 		return (NULL);
-	}
 
-		t = max - min + 1;
-	gt = malloc(t * (sizeof(int)));
+	t = max - min + 1;
+
+	gt = malloc(sizeof(int) * t);
 
 	if (gt == NULL)
 		return (NULL);
 
-	for (i = min; i <= t; i++)
-	{
+	for (i = 0; i < t; i++)
 		gt[i] = min++;
-	}
+
 	return (gt);
 }
