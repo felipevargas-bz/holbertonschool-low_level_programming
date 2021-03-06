@@ -10,6 +10,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	int i, t = 0;
+	char b;
 
 	while (src[t] != '\0')
 	{
@@ -18,7 +19,8 @@ char *_strcpy(char *dest, char *src)
 
 	for (i = 0; i < t; i++)
 	{
-		dest[i] = src[i];
+		b = src[i];
+		dest[i] = b;
 	}
 	dest = src;
 
