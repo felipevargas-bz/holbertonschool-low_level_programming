@@ -3,17 +3,18 @@
 /**
  * array_range - creates an gt of integers.
  * @min: size min.
- * @max:	size max.
+ * @max: size max.
  * Return: Pointer.
  */
 int *array_range(int min, int max)
 {
 	int *gt;
-	int i;
+	int i, t;
 
+	t = max - min + 1;
 	if (min > max)
 		return (NULL);
-	gt = malloc((max - min + 1) * (sizeof(int)));
+	gt = malloc(t * (sizeof(int)));
 	if (gt == NULL)
 		return (NULL);
 	for (i = min; min <= max; i++, min++)
