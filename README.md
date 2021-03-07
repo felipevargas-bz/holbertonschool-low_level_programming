@@ -35,8 +35,6 @@ working in the C language. The specific list of projects contained follows:
 ## Software Academy :pray:
 
 <p align="center">
-  <img
-    src=""
-    alt="Holberton School logo">
-  [<img src='http://www.holbertonschool.com/holberton-logo.png' alt='HolbertonSchool'>](https://www.holbertonschool.com/)
+  <a href="https://www.holbertonschool.com" target="_blank">
+			<img src="http://www.holbertonschool.com/holberton-logo.png" alt="Holberton School"  /></a>
 </p>
