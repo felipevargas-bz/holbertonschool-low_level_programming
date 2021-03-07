@@ -32,7 +32,7 @@ working in the C language. The specific list of projects contained follows:
 
 * __Felipe Vargas__
 
-## Software Academy :pray:
+## Software Academy 👨‍💻
 
 <p align="center">
   <a href="https://www.holbertonschool.com" target="_blank">
