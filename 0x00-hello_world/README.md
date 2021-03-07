@@ -1,8 +1,6 @@
 <img src='https://github.com/felipevargas-bz/felipevargas-bz/blob/main/banner.png' alt='Banner' width=100%>
 
 
-C programming project ==> holbertonschool-low_level_programming
-==> 0x00-hello_world
 
 - Social media.. 
 
