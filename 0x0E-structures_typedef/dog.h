@@ -1,7 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * struct dog - struct with dates.
+ * struct dog_t - struct with dates.
  * @name: name.
  * @age: age.
  * @owner: owner.
