@@ -28,6 +28,11 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
+	if ((atoi(argv[3]) == 0) && (*argv[2] == '%' || *argv[2] == '/'))
+	{
+		printf("Error\n");
+		exit(100);
+	}
 	back = ptf(a, b);
 	printf("%d\n", back);
 	return (0);
