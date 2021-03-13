@@ -10,21 +10,22 @@ char *str_concat(char *s1, char *s2)
 	int t = 0, size = 0, i, l = 0;
 	char *ptr = NULL;
 
-	if (s1 == NULL && s2 == NULL)
-		return (NULL);
+	if (s1 == NULL)
+		s1 = "";
 
-	if (s1 != NULL)
-	{
-		while (s1[t] != '\0')
-			t++;
-	}
+	if (s2 == NULL)
+		s2 = "";
+
+
+	while (s1[t] != '\0')
+		t++;
+
 	size = size + t;
 	t = 0;
-	if (s2 != NULL)
-	{
-		while (s2[t] != '\0')
-			t++;
-	}
+
+	while (s2[t] != '\0')
+		t++;
+
 	size = size + t;
 	ptr = malloc(sizeof(char) * size + 1);
 
