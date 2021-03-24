@@ -20,7 +20,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	node->n = n;
 	while (aux)
 	{
-		if (idx == iterator)
+		if (idx == (iterator - 1))
 		{
 			node->next = aux->next;
 			aux->next = node;
