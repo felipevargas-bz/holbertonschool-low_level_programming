@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * create_file - creates a file.
+ * append_text_to_file - creates a file.
  * @filename: file name.
  * @text_content: number of characters.
  * Return: 1 always.
