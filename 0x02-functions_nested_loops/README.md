@@ -27,7 +27,6 @@ functions written in the project.
 | `9-times_table.c`        | `void times_table(void)`         |
 | `10-add.c`               | `int add(int, int);`             |
 | `11-print_to_98.c`       | `void print_to_98(int n);`       |
-| `100-times_table.c`      | `void print_times_table(int n)`  |
 
 ## Tasks :page_with_curl:
 
@@ -71,6 +70,19 @@ functions written in the project.
 * **9. Learn your times table**
   * [9-times_table.c](./9-times_table.c): C function that prints the 9 times table,
   starting with 0.
+  
+  
+* **10. a + b**
+  * [10-add.c](./10-add.c): C function that returns the addition of two integers.
+
+* **11. Holberton School, 98 Battery Street, San Francisco CA 94111**
+  * [11-print_to_98.c](./11-print_to_98.c): C function that prints all natural numbers
+  from an input to `98` followed by a new line, as follows:
+    * Numbers are separated by a comma followed by a space.
+    * Numbers are printed in order.
+    * Input represents the number to begin counting from.
+    * `98` is the last number printed.
+
 
 
 ## Social media.. 
