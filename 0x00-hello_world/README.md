@@ -2,11 +2,6 @@
 
 
 
-- Social media.. 
-
-
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/angel-felipe-vargas-benitez-9a6592206//)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/https://www.facebook.com/profile.php?id=100028222452093)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/https://twitter.com/felipevargas_bz)  
-
 # C - Hello, World
 
 ## Tasks :page_with_curl:
@@ -54,3 +49,8 @@
   useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error,
   without using any functions listed in the NAME sesction of the man(3) `printf` or man(3)
   `puts`.
+  
+  ## Social media.. 
+
+
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/angel-felipe-vargas-benitez-9a6592206//)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/https://www.facebook.com/profile.php?id=100028222452093)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/https://twitter.com/felipevargas_bz)  
