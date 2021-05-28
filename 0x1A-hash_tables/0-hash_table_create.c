@@ -20,7 +20,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	{
 		return (NULL);
 	}
-	while (index <= size)
+	while (index < size)
 	{
 		table->array[index] = NULL;
 		index++;
