@@ -6,26 +6,25 @@
 void hash_table_print(const hash_table_t *ht)
 {
 	hash_node_t *aux;
-	int state = 0;
-	unsigned long int index = 0;
+	unsigned int state = 0;
+	unsigned int index = 0;
+
+	if (ht == NULL)
+		return;
 
 	printf("{");
 	while (index < ht->size)
 	{
-		if (ht->array[index] != NULL)
+		aux = ht->array[index];
+		while (aux)
 		{
-			if (state == 1)
+			if (state == 0)
+				state = 1;
+			else
 				printf(", ");
 
-			aux = ht->array[index];
-			while (aux != NULL)
-			{
-				printf("'%s': '%s'", aux->key, aux->value);
-				aux = aux->next;
-				if (aux != NULL)
-					printf(", ");
-			}
-			state = 1;
+			printf("'%s': '%s'", aux->key, aux->value);
+			aux = aux->next;
 		}
 		index++;
 	}
